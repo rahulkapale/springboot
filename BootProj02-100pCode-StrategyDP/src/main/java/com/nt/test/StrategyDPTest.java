@@ -15,6 +15,7 @@ public class StrategyDPTest {
 		Vehicle vehicle=ctx.getBean("vehicle",Vehicle.class);
 		//invoke method
 		vehicle.journey("pune","Goa");
+		
 		//close container
 		ctx.close();
 	}

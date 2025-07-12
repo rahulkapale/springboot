@@ -20,7 +20,5 @@ public final class DieselEngine implements Engine {
 	public void stop() {
 		System.out.println("Diesel Engine:: Engine Stopped");
 	}
-
 	
-
 }
